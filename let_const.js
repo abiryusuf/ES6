@@ -12,4 +12,10 @@ for (let i = 0; i < 10; i++) {
     //can not access the "i" out side the loop if we use let kew word
     //console.log(i)
 }
-console.log(i);
+//console.log(i);
+
+//template
+const fName = "abir";
+const lName = "yusuf";
+
+console.log(`${fName} ${lName} I am from BD` )

@@ -1,3 +1,5 @@
+
+//Spread operator allows an iterable to expand in places where 0+ arguments are expected.
 const num1 = 700;
 const num2 = 800;
 const num3 = 600;

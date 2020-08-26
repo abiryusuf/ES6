@@ -1,5 +1,5 @@
 
-//regular function with single parameters
+//expression function with single parameters
 const doublet = function(num){
     return num * 2;
 }

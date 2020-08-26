@@ -9,8 +9,9 @@ class Parent {
 
 
 class Child extends Parent{
-    constructor(name) {
+    constructor(id, name) {
         super();
+        this.ID = id
         this.name = name;
         
     }
@@ -20,5 +21,5 @@ class Child extends Parent{
 }
 
 
-const str = new Child("Abir");
+const str = new Child(01, "Abir");
 console.log(str)

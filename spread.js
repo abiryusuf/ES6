@@ -3,11 +3,12 @@
 const num1 = 700;
 const num2 = 800;
 const num3 = 600;
-const maxNumber = [num3, num2, num1]
+
 
 const max = Math.max(num2, num1, num3);
 console.log(max);
 
+const maxNumber = [num3, num2, num1]
 console.log("spread operator", Math.max(...maxNumber));
 
 
@@ -17,4 +18,4 @@ function spreadOperator(x, y, z){
 }
 
 const result = spreadOperator(4,6,2);
-console.log(result);
+console.log("max number", result);

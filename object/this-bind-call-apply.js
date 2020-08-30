@@ -36,7 +36,12 @@ const secondPerson = {
 // str(3000);
 // str(2000)
 
-// call
+// call: call the function from another object with arguments
 
-person.getCharge.call(secondPerson, 3000, 200, 100);
+// person.getCharge.call(secondPerson, 3000, 200, 100);
+// console.log(secondPerson.salary);
+
+//apply: apply the function from another object with array
+
+person.getCharge.apply(secondPerson, [3000, 200, 100]);
 console.log(secondPerson.salary);
